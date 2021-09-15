@@ -1,0 +1,9 @@
+<launch>
+
+  <!--- Run gmapping -->
+  <include file="$(find bot_navigation)/launch/gmapping.launch" />
+
+  <!--- Run Move Base -->
+  <include file="$(find bot_navigation)/launch/move_base.launch" />
+
+</launch>
